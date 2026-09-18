@@ -15,7 +15,7 @@ void main() {
   print('Larger value: ${a > b ? a : b}');
 
   String? label;
-  label ??= 'Dart';
+  label ??= 'heelo user';
   print('Label: $label');
 
   /*
@@ -57,12 +57,12 @@ void main() {
   as treats a value as a specified type and throws if the value is incompatible.
    */
 
-  // String name = 'name';
-  // print(name is int); //false
+  String name = 'name';
+  print(name is int); //false
   // print(name is String); //true
 
-  // dynamic age = 12;
-  // print('age is ${age}');
+  dynamic age = 12;
+  print('age is ${age}');
   // int AgeInt = age as int;
   // print('int age is ${age}');
 

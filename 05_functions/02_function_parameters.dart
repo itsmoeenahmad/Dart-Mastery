@@ -22,7 +22,7 @@ void main() {
   // optionalPositional(1); // b is omitted, so it receives null.
   // optionalPositional(12, 13);
 
-  //Optional Named Parameters
+  // Optional Named Parameters
 
   optionalNamed(1); // b is omitted, so it receives null.
   // optionalNamed(1, 2); // Invalid: b is a named parameter.

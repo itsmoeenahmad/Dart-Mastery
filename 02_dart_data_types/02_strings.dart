@@ -13,7 +13,7 @@ void main() {
 
   //We also apply so many built-in methods on any string such as:
 
-  print(sentence1.isEmpty);
+  print(sentence1.isEmpty); // true / false
   print(sentence1.length);
   print(sentence1.hashCode);
   print(sentence1.isNotEmpty);

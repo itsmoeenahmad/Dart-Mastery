@@ -9,6 +9,6 @@ extension StringExtension on String {
 }
 
 void main() {
-  String name = 'moeen';
+  String name = 'moeen'; // length = 5
   print(name.lengthInDouble());
 }

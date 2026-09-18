@@ -4,11 +4,9 @@ A class defines data and behavior; an object is a run-time instance created from
 
 class Car {
   //Properties
-
   String? carName;
 
   //Methods
-
   void onStart() {
     print('${carName} is Started....!');
   }
