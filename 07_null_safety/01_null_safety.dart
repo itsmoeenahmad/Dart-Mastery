@@ -6,8 +6,8 @@ void main() {
   //String name; //In dart every datatype variables is by default non-nullable.
   //print(name); //Show us error
 
-  //String name = null; //Not Possible
-  //print(name);
+  // String name = null; //Not Possible
+  // print(name);
 
   // Common null-safety operators are ?, ??, and !.
 
@@ -22,13 +22,15 @@ void main() {
   //This is used in case we sure that the value is not null, it must contain any value but if it is nullable in future
   //then it will throw an error
 
-  //int? number;
-  //int age = number!; //Throw exception/error
+  int? number;
+  print(number); //Null if number is not initialized with proper value.
+  int age = number!; //Throw exception/error
+  print(age); 
 
   //Use of ??
   //It is used in case when we predict that if this value is null then assign this one.
 
-  // int num_01 =12;
+  // int num_01=12;
   // int? num_02;
   // int age_01 = num_01 ?? 13; //12 will be assigned
   // int age_02 = num_02 ?? 14; //14 will be assigned

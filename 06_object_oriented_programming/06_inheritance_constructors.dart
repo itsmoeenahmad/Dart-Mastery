@@ -1,10 +1,6 @@
-// ignore_for_file: unused_local_variable
-
 /*
 A child constructor can initialize its parent by calling the superclass constructor with super.
 */
-
-//Sample Demo
 
 //Sample Demo
 class Parent {
@@ -51,4 +47,5 @@ void main() {
   //Advanced Demo
 
   Student std = Student('Ali', 20, 'as23');
+  print('Student name is ${std.name}');
 }

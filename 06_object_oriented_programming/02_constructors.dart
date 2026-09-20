@@ -7,6 +7,7 @@ class Car1 {
 
   Car1() {
     print('This is Default Constructor');
+    carName1 = 'BMW-1';
   }
 }
 
@@ -38,15 +39,16 @@ class Car3 {
 
 void main() {
   //Default Constructor
-
-  // Car1 bmw1 = Car1();
+  Car1 bmw1 = Car1();
+  print(bmw1.carName1);
 
   //Parameterized Constructor
-
-  //Car2 bmw2 = Car2('bmw-2');
+  Car2 bmw2 = Car2('bmw-2');
+  print(bmw2.carName2);
 
   //Names Constructor
-
-  // Car3 bmw3_1 = Car3.firstConstructor('bmw-3-1');
-  // Car3 bmw3_2 = Car3.secondConstructor('bmw-3-2');
+  Car3 bmw3_1 = Car3.firstConstructor('bmw-3-1');
+  print(bmw3_1.carName3);
+  Car3 bmw3_2 = Car3.secondConstructor('bmw-3-2');
+  print(bmw3_2.carName3);
 }

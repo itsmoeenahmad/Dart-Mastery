@@ -3,14 +3,12 @@ An abstract class defines a shared contract or implementation and cannot be inst
 */
 
 //Parent Class which is abstract class
-
 abstract class Vehicle {
   //Abstract Methods
   void start();
   void stop();
 }
 //Child class which will defined the abstract class vehicle for their own purpose.
-
 class Car extends Vehicle {
   @override
   void start() {
@@ -23,6 +21,7 @@ class Car extends Vehicle {
   }
 }
 
+//Child class which will defined the abstract class vehicle for their own purpose.
 class Bike extends Vehicle {
   @override
   void start() {
@@ -36,7 +35,6 @@ class Bike extends Vehicle {
 }
 
 //Abstract Class With constructor.
-
 abstract class Sample {
   String? sampleNo;
 
@@ -61,8 +59,7 @@ class SubSample extends Sample {
 }
 
 void main() {
-  //We can't create the object of abstract class
-  //so,
+  //We can't create the object of abstract class, So
 
   // Car car_01 = Car();
   // car_01.start();
@@ -74,8 +71,8 @@ void main() {
 
   //Abstract class with constructor:
 
-  SubSample s1 = SubSample('Sample#1', 'SAM123');
-  s1.method();
-  print(s1.sampleName);
-  print(s1.sampleNo);
+  // SubSample s1 = SubSample('Sample#1', 'SAM123');
+  // s1.method();
+  // print(s1.sampleName);
+  // print(s1.sampleNo);
 }
