@@ -6,6 +6,8 @@ extension StringExtension on String {
   int lengthInDouble() {
     return length * 2;
   }
+
+  // multiple functions can be added to the same extension
 }
 
 void main() {

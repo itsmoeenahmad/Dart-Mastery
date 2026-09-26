@@ -42,6 +42,7 @@ abstract class Sample {
     this.sampleNo = sno;
   }
 
+  // abstract method
   method();
 }
 

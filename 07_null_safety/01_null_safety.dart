@@ -15,7 +15,7 @@ void main() {
   // Use ? when null is a valid value for the variable.
 
   //String? name;
-  // name='ali';
+  // name='ali'; 
   //print(name); //Null if name is not initialized with proper name.
 
   //Use of !

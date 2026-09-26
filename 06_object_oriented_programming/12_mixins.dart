@@ -16,7 +16,10 @@ mixin Sing {
   }
 }
 
-class Person with Walk, Sing {}
+class Person with Walk, Sing {
+
+  // empty class body
+}
 
 void main() {
   // Create an object that receives both mixin behaviors.
